@@ -19,38 +19,11 @@ function PropertyInput() {
         <Col>
           <Form>
             <FormGroup>
-              <Row>
-                <Col>
-                  <div>
-                    <p>Address</p>
-                  </div>
-                  <div>
-                    <Input type="text" />
-                  </div>
-                </Col>
-                <Col>
-                  <div>
-                    <p>Number of Units</p>
-                  </div>
-                  <div>
-                    <Input type="text" />
-                  </div>
-                </Col>
-                <Col>
-                  <div>
-                    <p>Rentable SQFT</p>
-                  </div>
-                  <div>
-                    <Input type="text" />
-                  </div>
-                </Col>
-              </Row>
-
               <Container>
                 <Row>
                   <Col>
                     <div>
-                      <p>Address</p>
+                      <Label>Address</Label>
                     </div>
                     <div>
                       <Input type="text" />
@@ -58,7 +31,7 @@ function PropertyInput() {
                   </Col>
                   <Col>
                     <div>
-                      <p>Number of Units</p>
+                      <Label>Number of Units</Label>
                     </div>
                     <div>
                       <Input type="text" />
@@ -66,33 +39,7 @@ function PropertyInput() {
                   </Col>
                   <Col>
                     <div>
-                      <p>Rentable SQFT</p>
-                    </div>
-                    <div>
-                      <Input type="text" />
-                    </div>
-                  </Col>
-                </Row>
-                <Row>
-                  <Col>
-                    <div>
-                      <p>Purchase Price</p>
-                    </div>
-                    <div>
-                      <Input type="text" />
-                    </div>
-                  </Col>
-                  <Col>
-                    <div>
-                      <p>Loan To Value</p>
-                    </div>
-                    <div>
-                      <Input type="text" />
-                    </div>
-                  </Col>
-                  <Col>
-                    <div>
-                      <p>Closing Costs %</p>
+                      <Label>Rentable SQFT</Label>
                     </div>
                     <div>
                       <Input type="text" />
@@ -102,7 +49,7 @@ function PropertyInput() {
                 <Row>
                   <Col>
                     <div>
-                      <p>Monthly Debt Service</p>
+                      <Label>Purchase Price</Label>
                     </div>
                     <div>
                       <Input type="text" />
@@ -110,7 +57,7 @@ function PropertyInput() {
                   </Col>
                   <Col>
                     <div>
-                      <p>Gross Income</p>
+                      <Label>Loan To Value</Label>
                     </div>
                     <div>
                       <Input type="text" />
@@ -118,7 +65,33 @@ function PropertyInput() {
                   </Col>
                   <Col>
                     <div>
-                      <p>Net Operating Income</p>
+                      <Label>Closing Costs %</Label>
+                    </div>
+                    <div>
+                      <Input type="text" />
+                    </div>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col>
+                    <div>
+                      <Label>Monthly Debt Service</Label>
+                    </div>
+                    <div>
+                      <Input type="text" />
+                    </div>
+                  </Col>
+                  <Col>
+                    <div>
+                      <Label>Gross Income</Label>
+                    </div>
+                    <div>
+                      <Input type="text" />
+                    </div>
+                  </Col>
+                  <Col>
+                    <div>
+                      <Label>Net Operating Income</Label>
                     </div>
                     <div>
                       <Input type="text" />
