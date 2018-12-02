@@ -8,8 +8,8 @@ import {
   FormGroup,
   Label,
   Input,
-  FormText
 } from 'reactstrap';
+import { Link } from 'react-router-dom';
 import './PropertyInput.css';
 
 function PropertyInput() {
@@ -100,12 +100,14 @@ function PropertyInput() {
                 </Row>
               </Container>
             </FormGroup>
-            <Button>Analyze</Button>
+            <Link to="PropertySummary">
+              <Button>Analyze</Button>
+            </Link>
           </Form>
         </Col>
       </Row>
     </Container>
-  )
+  );
 }
 
 export default PropertyInput;
