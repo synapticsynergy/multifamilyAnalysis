@@ -3,7 +3,7 @@ import './PropertySummary.css';
 import {
   Container,
   Row,
-  Col
+  Col,
 } from 'reactstrap';
 
 export default function PropertySummary() {
