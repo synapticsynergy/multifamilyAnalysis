@@ -1,0 +1,23 @@
+{
+  "name": "multifamilyanalysis",
+  "version": "1.1.0",
+  "description": "Nodejs POC for testing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/synapticsynergy/multifamilyAnalysis.git"
+  },
+  "author": "Blake Danson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/synapticsynergy/multifamilyAnalysis/issues"
+  },
+  "homepage": "https://github.com/synapticsynergy/multifamilyAnalysis#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
