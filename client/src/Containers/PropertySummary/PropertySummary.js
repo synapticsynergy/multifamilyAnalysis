@@ -3,7 +3,7 @@ import './PropertySummary.css';
 import {
   Container,
   Row,
-  Col
+  Col,
 } from 'reactstrap';
 
 export default function PropertySummary() {
@@ -11,7 +11,8 @@ export default function PropertySummary() {
     <div>
       <div className="summary-section">
         <div className="summary-section-item" style={{ marginBottom: '15px' }}>
-          <img width="90%" src="https://picsum.photos/1080/720" alt="" />
+          {/* <img width="80%" src="https://picsum.photos/1080/720" alt="" /> */}
+          <img width="80%" src={require('../../assets/mockImg.jpg')} alt="" />
         </div>
       </div>
       <div className="summary-section">

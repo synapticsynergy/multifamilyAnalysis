@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import PropertyInput from './Containers/PropertyInput/PropertyInput';
 import PropertySummary from './Containers/PropertySummary/PropertySummary';
 
@@ -9,9 +9,11 @@ export default function App() {
     <Router>
       <div className="App">
         <header className="App-header">
-          <p>
-            Multifamily Analysis
-          </p>
+          <Link to="/">
+            <p>
+              Multifamily Analysis
+            </p>
+          </Link>
         </header>
         <div>
           <Route exact path="/" component={PropertyInput} />
