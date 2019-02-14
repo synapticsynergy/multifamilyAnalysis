@@ -21,7 +21,7 @@ function PropertyInput() {
             <FormGroup>
               <Container>
                 <Row>
-                  <Col>
+                  <Col xs={12} md={4}>
                     <div>
                       <Label>Address</Label>
                     </div>
@@ -29,7 +29,7 @@ function PropertyInput() {
                       <Input type="text" />
                     </div>
                   </Col>
-                  <Col>
+                  <Col xs={12} md={4}>
                     <div>
                       <Label>Number of Units</Label>
                     </div>
@@ -37,7 +37,7 @@ function PropertyInput() {
                       <Input type="text" />
                     </div>
                   </Col>
-                  <Col>
+                  <Col xs={12} md={4}>
                     <div>
                       <Label>Rentable SQFT</Label>
                     </div>
@@ -47,7 +47,7 @@ function PropertyInput() {
                   </Col>
                 </Row>
                 <Row>
-                  <Col>
+                  <Col xs={12} md={4}>
                     <div>
                       <Label>Purchase Price</Label>
                     </div>
@@ -55,7 +55,7 @@ function PropertyInput() {
                       <Input type="text" />
                     </div>
                   </Col>
-                  <Col>
+                  <Col xs={12} md={4}>
                     <div>
                       <Label>Loan To Value</Label>
                     </div>
@@ -63,7 +63,7 @@ function PropertyInput() {
                       <Input type="text" />
                     </div>
                   </Col>
-                  <Col>
+                  <Col xs={12} md={4}>
                     <div>
                       <Label>Closing Costs %</Label>
                     </div>
@@ -73,7 +73,7 @@ function PropertyInput() {
                   </Col>
                 </Row>
                 <Row>
-                  <Col>
+                  <Col xs={12} md={4}>
                     <div>
                       <Label>Monthly Debt Service</Label>
                     </div>
@@ -81,7 +81,7 @@ function PropertyInput() {
                       <Input type="text" />
                     </div>
                   </Col>
-                  <Col>
+                  <Col xs={12} md={4}>
                     <div>
                       <Label>Gross Income</Label>
                     </div>
@@ -89,7 +89,7 @@ function PropertyInput() {
                       <Input type="text" />
                     </div>
                   </Col>
-                  <Col>
+                  <Col xs={12} md={4}>
                     <div>
                       <Label>Net Operating Income</Label>
                     </div>
