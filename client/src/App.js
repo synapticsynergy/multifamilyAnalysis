@@ -1,25 +1,29 @@
 import React from 'react';
-import './App.css';
+import { Provider } from 'react-redux';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import PropertyInput from './Containers/PropertyInput/PropertyInput';
-import PropertySummary from './Containers/PropertySummary/PropertySummary';
+import configureStore from './store';
+import './App.css';
+import PropertyInput from './containers/PropertyInput/PropertyInput';
+import PropertySummary from './containers/PropertySummary/PropertySummary';
 
 export default function App() {
   return (
-    <Router>
-      <div className="App">
-        <header className="App-header">
-          <Link to="/">
-            <p>
-              Multifamily Analysis
+    <Provider store={configureStore()}>
+      <Router>
+        <div className="App">
+          <header className="App-header">
+            <Link to="/">
+              <p>
+                Multifamily Analysis
             </p>
-          </Link>
-        </header>
-        <div>
-          <Route exact path="/" component={PropertyInput} />
-          <Route exact path="/propertySummary" component={PropertySummary} />
+            </Link>
+          </header>
+          <div>
+            <Route exact path="/" component={PropertyInput} />
+            <Route exact path="/propertySummary" component={PropertySummary} />
+          </div>
         </div>
-      </div>
-    </Router>
+      </Router>
+    </Provider>
   );
 }
